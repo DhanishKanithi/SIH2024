@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Application Dashboard</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-links">
+            <a href="#">Dashboard</a>
+            <a href="#" class="active">Applications</a>
+            <a href="#">Resources</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Revenue Certificate Applications</h1>
+
+        <!-- Status Cards -->
+        <div class="status-cards">
+            <div class="status-card pending">
+                <h2>Pending</h2>
+                <span class="count">125</span>
+                <p>Applications awaiting initial review.</p>
+            </div>
+            <div class="status-card in-progress">
+                <h2>In Progress</h2>
+                <span class="count">78</span>
+                <p>Applications currently being processed.</p>
+            </div>
+            <div class="status-card completed">
+                <h2>Completed</h2>
+                <span class="count">42</span>
+                <p>Applications that have been approved.</p>
+            </div>
+            <div class="status-card rejected">
+                <h2>Rejected</h2>
+                <span class="count">15</span>
+                <p>Applications that have been denied.</p>
+            </div>
+        </div>
+
+        <!-- Applications List -->
+        <div class="applications-list">
+            <div class="application-card">
+                <div class="application-info">
+                    <h3>Application #12345</h3>
+                    <p>Verification Stage 2</p>
+                    <span class="status in-progress">In Progress</span>
+                    <div class="applicant-info">
+                        <span>John Doe</span>
+                        <span>Submitted on 2023-05-15</span>
+                    </div>
+                </div>
+                <div class="application-meta">
+                    <span>Updated 2 days ago</span>
+                    <button class="dropdown-btn">
+                        &#8646;
+                        <div class="dropdown-content">
+                            <a href="#">View Application</a>
+                            <a href="#">Update Status</a>
+                            <a href="#">Reject Application</a>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <!-- Repeat the application card for other entries -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
