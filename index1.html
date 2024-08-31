@@ -5,49 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Bungee+Tint&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style1.css">
+
 </head>
 
 <body>
     <div class="w-full min-h-screen bg-background text-foreground" data-id="1">
         <header class="bg-card py-4 shadow" data-id="2">
             <div class="container mx-auto flex items-center justify-between" data-id="3">
-                <div class="flex items-center gap-2" data-id="4"><svg data-id="5" xmlns="http://www.w3.org/2000/svg"
+                <div class="flex items-center gap-2" data-id="4">
+                        <!-- <svg data-id="5" xmlns="http://www.w3.org/2000/svg"
                         width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
                         <line x1="22" x2="2" y1="6" y2="6"></line>
                         <line x1="22" x2="2" y1="18" y2="18"></line>
                         <line x1="6" x2="6" y1="2" y2="22"></line>
                         <line x1="18" x2="18" y1="2" y2="22"></line>
-                    </svg>
-                    <h1 class="text-xl font-semibold" data-id="6">Revenue Certificate</h1>
+                    </svg> -->
+                    <img src="./Income-Tax-Department-Black.svg" alt="Description of SVG" height="50" weight="50">
+
+                    <h1 class="text-xl font-semibold" data-id="6"> Revenue Department </h1>
                 </div>
                 <nav class="flex items-center gap-4" data-id="7"><a data-id="8"
-                        class="text-muted-foreground hover:text-foreground" href="#">
+                        class="text-muted-foreground hover:text-foreground nav_links" href="#">
                         Dashboard
-                    </a><a data-id="9" class="text-muted-foreground hover:text-foreground" href="#">
+                    </a><a data-id="9" class="text-muted-foreground hover:text-foreground nav_links" href="#">
                         Applications
-                    </a><a data-id="10" class="text-muted-foreground hover:text-foreground" href="#">
+                    </a><a data-id="10" class="text-muted-foreground hover:text-foreground nav_links" href="#">
                         Resources
-                    </a><a data-id="11" class="text-muted-foreground hover:text-foreground" href="#">
-                        Settings
                     </a></nav>
             </div>
         </header>
         <main class="container mx-auto py-8" data-id="12">
             <h2 class="text-2xl font-semibold mb-6" data-id="13">Application Tracking</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4" data-id="14">
-                <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="15" data-v0-t="card">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class1" data-id="15" data-v0-t="card" id="pending_id">
                     <div class="flex flex-col space-y-1.5 p-6" data-id="16">
                         <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight" data-id="17">
                             Pending</h3>
                     </div>
                     <div class="p-6 flex items-center justify-between" data-id="18">
-                        <div class="text-4xl font-bold" data-id="19">42</div><svg data-id="20"
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        <div class="text-4xl font-bold" data-id="19">42</div>
+                        <svg data-id="20"
+                            xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="w-8 h-8 text-muted-foreground">
-                            <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
+                            class="w-8 h-8 text-muted-foreground" >
+                            <rect width="25" height="25" x="25" y="25" rx="25" ry="25"></rect>
                             <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
                             <path d="M12 11h4"></path>
                             <path d="M12 16h4"></path>
@@ -56,14 +68,14 @@
                         </svg>
                     </div>
                 </div>
-                <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="21" data-v0-t="card">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class1" data-id="21" data-v0-t="card" id="progress_id">
                     <div class="flex flex-col space-y-1.5 p-6" data-id="22">
                         <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight" data-id="23">In
                             Progress</h3>
                     </div>
                     <div class="p-6 flex items-center justify-between" data-id="24">
                         <div class="text-4xl font-bold" data-id="25">18</div><svg data-id="26"
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="w-8 h-8 text-muted-foreground">
                             <path d="M5 22h14"></path>
@@ -74,14 +86,14 @@
                         </svg>
                     </div>
                 </div>
-                <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="27" data-v0-t="card">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class1" data-id="27" data-v0-t="card" id ="completed_id">
                     <div class="flex flex-col space-y-1.5 p-6" data-id="28">
                         <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight" data-id="29">
                             Completed</h3>
                     </div>
                     <div class="p-6 flex items-center justify-between" data-id="30">
                         <div class="text-4xl font-bold" data-id="31">65</div><svg data-id="32"
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="w-8 h-8 text-muted-foreground">
                             <circle cx="12" cy="12" r="10"></circle>
@@ -89,14 +101,14 @@
                         </svg>
                     </div>
                 </div>
-                <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="33" data-v0-t="card">
+                <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class1" data-id="33" data-v0-t="card" id="total_id">
                     <div class="flex flex-col space-y-1.5 p-6" data-id="34">
                         <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight" data-id="35">
                             Total</h3>
                     </div>
                     <div class="p-6 flex items-center justify-between" data-id="36">
                         <div class="text-4xl font-bold" data-id="37">125</div><svg data-id="38"
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="w-8 h-8 text-muted-foreground">
                             <line x1="12" x2="12" y1="20" y2="10"></line>
@@ -109,14 +121,14 @@
             <div class="mt-8" data-id="39">
                 <h2 class="text-2xl font-semibold mb-4" data-id="40">Verification Stages</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4" data-id="41">
-                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="42" data-v0-t="card">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class2" data-id="42" data-v0-t="card" id="document_verification_id">
                         <div class="flex flex-col space-y-1.5 p-6" data-id="43">
                             <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight"
                                 data-id="44">Document Verification</h3>
                         </div>
                         <div class="p-6 flex items-center justify-between" data-id="45">
                             <div class="text-4xl font-bold" data-id="46">32</div><svg data-id="47"
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="w-8 h-8 text-muted-foreground">
                                 <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
@@ -127,18 +139,18 @@
                             </svg>
                         </div>
                         <div class="p-6 flex justify-between items-center" data-id="48">
-                            <div class="text-muted-foreground" data-id="49">Pending: 12</div>
-                            <div class="text-muted-foreground" data-id="50">Completed: 20</div>
+                            <div class="text-muted-foreground sub_pending_id" data-id="49" >Pending: 12</div>
+                            <div class="text-muted-foreground sub_completed_id" data-id="50">Completed: 20</div>
                         </div>
                     </div>
-                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="51" data-v0-t="card">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class2" data-id="51" data-v0-t="card" id="identity_verification_id">
                         <div class="flex flex-col space-y-1.5 p-6" data-id="52">
                             <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight"
                                 data-id="53">Identity Verification</h3>
                         </div>
                         <div class="p-6 flex items-center justify-between" data-id="54">
                             <div class="text-4xl font-bold" data-id="55">28</div><svg data-id="56"
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="w-8 h-8 text-muted-foreground">
                                 <path
@@ -147,18 +159,18 @@
                             </svg>
                         </div>
                         <div class="p-6 flex justify-between items-center" data-id="57">
-                            <div class="text-muted-foreground" data-id="58">Pending: 8</div>
-                            <div class="text-muted-foreground" data-id="59">Completed: 20</div>
+                            <div class="text-muted-foreground sub_pending_id" data-id="58">Pending: 8</div>
+                            <div class="text-muted-foreground sub_completed_id" data-id="59">Completed: 20</div>
                         </div>
                     </div>
-                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="60" data-v0-t="card">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class2" data-id="60" data-v0-t="card" id="address_verification_id">
                         <div class="flex flex-col space-y-1.5 p-6" data-id="61">
                             <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight"
                                 data-id="62">Address Verification</h3>
                         </div>
                         <div class="p-6 flex items-center justify-between" data-id="63">
                             <div class="text-4xl font-bold" data-id="64">22</div><svg data-id="65"
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="w-8 h-8 text-muted-foreground">
                                 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
@@ -166,18 +178,18 @@
                             </svg>
                         </div>
                         <div class="p-6 flex justify-between items-center" data-id="66">
-                            <div class="text-muted-foreground" data-id="67">Pending: 6</div>
-                            <div class="text-muted-foreground" data-id="68">Completed: 16</div>
+                            <div class="text-muted-foreground sub_pending_id" data-id="67">Pending: 6</div>
+                            <div class="text-muted-foreground sub_completed_id" data-id="68">Completed: 16</div>
                         </div>
                     </div>
-                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="69" data-v0-t="card">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class2" data-id="69" data-v0-t="card" id="final_approval_id">
                         <div class="flex flex-col space-y-1.5 p-6" data-id="70">
                             <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight"
                                 data-id="71">Final Approval</h3>
                         </div>
                         <div class="p-6 flex items-center justify-between" data-id="72">
                             <div class="text-4xl font-bold" data-id="73">43</div><svg data-id="74"
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="w-8 h-8 text-muted-foreground">
                                 <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
@@ -187,8 +199,8 @@
                             </svg>
                         </div>
                         <div class="p-6 flex justify-between items-center" data-id="75">
-                            <div class="text-muted-foreground" data-id="76">Pending: 10</div>
-                            <div class="text-muted-foreground" data-id="77">Completed: 33</div>
+                            <div class="text-muted-foreground sub_pending_id" data-id="76">Pending: 10</div>
+                            <div class="text-muted-foreground sub_completed_id" data-id="77">Completed: 33</div>
                         </div>
                     </div>
                 </div>
@@ -196,14 +208,14 @@
             <div class="mt-8" data-id="78">
                 <h2 class="text-2xl font-semibold mb-4" data-id="79">Resource Allocation</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" data-id="80">
-                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="81" data-v0-t="card">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class3" data-id="81" data-v0-t="card" id="verification_id">
                         <div class="flex flex-col space-y-1.5 p-6" data-id="82">
                             <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight"
                                 data-id="83">Verification Officers</h3>
                         </div>
                         <div class="p-6 flex items-center justify-between" data-id="84">
                             <div class="text-4xl font-bold" data-id="85">12</div><svg data-id="86"
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="w-8 h-8 text-muted-foreground">
                                 <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
@@ -211,18 +223,18 @@
                             </svg>
                         </div>
                         <div class="p-6 flex justify-between items-center" data-id="87">
-                            <div class="text-muted-foreground" data-id="88">Available: 8</div>
-                            <div class="text-muted-foreground" data-id="89">Assigned: 4</div>
+                            <div class="text-muted-foreground sub_available_id" data-id="88">Available: 8</div>
+                            <div class="text-muted-foreground sub_assigned_id" data-id="89">Assigned: 4</div>
                         </div>
                     </div>
-                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="90" data-v0-t="card">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class3" data-id="90" data-v0-t="card" id="document_scanner_id">
                         <div class="flex flex-col space-y-1.5 p-6" data-id="91">
                             <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight"
                                 data-id="92">Document Scanners</h3>
                         </div>
                         <div class="p-6 flex items-center justify-between" data-id="93">
                             <div class="text-4xl font-bold" data-id="94">6</div><svg data-id="95"
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="w-8 h-8 text-muted-foreground">
                                 <path d="M3 7V5a2 2 0 0 1 2-2h2"></path>
@@ -232,18 +244,18 @@
                             </svg>
                         </div>
                         <div class="p-6 flex justify-between items-center" data-id="96">
-                            <div class="text-muted-foreground" data-id="97">Available: 4</div>
-                            <div class="text-muted-foreground" data-id="98">Assigned: 2</div>
+                            <div class="text-muted-foreground sub_available_id" data-id="97">Available: 4</div>
+                            <div class="text-muted-foreground sub_assigned_id" data-id="98">Assigned: 2</div>
                         </div>
                     </div>
-                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-id="99" data-v0-t="card">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm hover_events_class3" data-id="99" data-v0-t="card" id="workstations_id">
                         <div class="flex flex-col space-y-1.5 p-6" data-id="100">
                             <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight"
                                 data-id="101">Workstations</h3>
                         </div>
                         <div class="p-6 flex items-center justify-between" data-id="102">
                             <div class="text-4xl font-bold" data-id="103">18</div><svg data-id="104"
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="w-8 h-8 text-muted-foreground">
                                 <rect width="14" height="8" x="5" y="2" rx="2"></rect>
@@ -253,14 +265,15 @@
                             </svg>
                         </div>
                         <div class="p-6 flex justify-between items-center" data-id="105">
-                            <div class="text-muted-foreground" data-id="106">Available: 12</div>
-                            <div class="text-muted-foreground" data-id="107">Assigned: 6</div>
+                            <div class="text-muted-foreground sub_available_id" data-id="106">Available: 12</div>
+                            <div class="text-muted-foreground sub_assigned_id" data-id="107">Assigned: 6</div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
     </div>
+    <script src="./script1.js"></script>
 </body>
 
 </html>

@@ -11,6 +11,17 @@
   background-color: #f9fafb; /* Light gray background */
 }
 
+.nav_links {
+  text-decoration: none;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
 .text-foreground {
   color: #111827; /* Dark text color */
 }
@@ -25,6 +36,48 @@
 
 .text-muted-foreground {
   color: #6b7280; /* Muted text color */
+}
+
+.hover_events_class1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.hover_events_class2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.hover_events_class3:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.sub_pending_id, .sub_completed_id, .sub_available_id, .sub_assigned_id{
+  border: 1px solid black;
+  border-radius: 50%;
+  padding : 5%;
+  color: whitesmoke;
+}
+
+.sub_pending_id{
+  background-color: #EE4E4E;
+  border-color: #EE4E4E ;
+}
+
+.sub_completed_id {
+  background-color: #799351;
+  border-color: #799351;
+}
+
+.sub_available_id {
+  background-color: #40A578;
+  border-color: #40A578;
+}
+
+.sub_assigned_id {
+  background-color: #8E3E63;
+  border-color: #8E3E63;
 }
 
 .shadow-sm {
@@ -85,7 +138,8 @@ nav a:last-child {
 
 /* Typography */
 .text-xl {
-  font-size: 1.25rem; /* Slightly larger text size */
+  font-size: 2rem; /* Slightly larger text size */
+  text-transform: uppercase;
 }
 
 .text-2xl {
@@ -165,6 +219,79 @@ nav a:last-child {
 .hover\:text-foreground:hover {
   color: #111827; /* Dark text color on hover */
 }
+
+.text-4xl.font-bold {
+  border : 2px solid #74512D;
+  border-radius: 50% ;
+  padding: 5%;
+}
+
+#pending_id {
+  background-color: red;
+}
+
+#progress_id {
+  background-color: orange;
+}
+
+#completed_id {
+  background-color: chartreuse;
+}
+
+#total_id {
+  background-color: skyblue;
+}
+
+#document_verification_id, #identity_verification_id, #address_verification_id, #final_approval_id {
+  background-color: #A1DD70;
+}
+
+#pending_id, #progress_id, #completed_id, #total_id, #document_verification_id, #identity_verification_id, #address_verification_id, 
+#final_approval_id, #verification_id, #document_scanner_id, #workstations_id{
+  color: #74512D;
+}
+
+#verification_id {
+  background-color: #FFF455;
+}
+
+#document_scanner_id {
+  background-color: #FFF455;
+}
+
+#workstations_id {
+  background-color: #FFF455;
+}
+
+.text-xl.font-semibold{
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #003285;
+}
+
+.text-2xl.font-semibold.mb-6 , .text-2xl.font-semibold.mb-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-decoration: underline;
+  color: #006769;
+}
+
+.flex.flex-col.p-6{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height : 10vh; */
+  /* text-transform: uppercase; */
+}
+
 
 /* Media Queries for Responsive Design */
 @media (min-width: 768px) {
