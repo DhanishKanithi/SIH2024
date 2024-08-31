@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-links a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-links a.active {
+    font-weight: bold;
+    color: #000;
+}
+
+.content {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+/* Status Cards */
+.status-cards {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.status-card {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.status-card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.status-card .count {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.25rem 0.5rem;
+    border-radius: 50%;
+    font-size: 0.9rem;
+}
+
+.pending {
+    background-color: #333; /* Black */
+}
+
+.in-progress {
+    background-color: #e0e0e0; /* Light Grey */
+    color: #333;
+}
+
+.completed {
+    background-color: #28a745; /* Green */
+}
+
+.rejected {
+    background-color: #dc3545; /* Red */
+}
+
+/* Applications List */
+.applications-list {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.application-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.application-card h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.application-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.status {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+.status.in-progress {
+    background-color: #ffc107; /* Yellow */
+    color: #fff;
+}
+
+.dropdown-btn {
+    background: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-btn:hover .dropdown-content {
+    display: block;
+}
